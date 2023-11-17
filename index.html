@@ -3,79 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@500;800&display=swap"
-        rel="stylesheet">
-    <title>DEWRAT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>DW</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <div class="logoblock"><img class="logo" src="image\logo.png" alt="">
-                <h1 class="name">DROCHEWRAT</h1>
-            </div>
+        <a href="index.html" class="logo-block">
+            <img src="image/logo.png" alt="" class="logo">
+            <p class="site-name">drochewrat</p>
         </a>
-
-        <a href="register.html">
-            <div class="bottom">
-                <p>register</p>
-            </div>
-        </a>
+        <div class="nav-menu">
+            <a href="#" class="menu-item menu-item1">buy pass</a>
+            <a href="#" class="menu-item menu-item2">buy add program</a>
+            <a href="#" class="menu-item menu-item3">choose coach</a>
+        </div>
+        <button onclick="document.location='reg-ex.html'">reg/sign in</button>
     </header>
 
-    <nav>
-        <a href="pass.html">buy pass</a>
-        <a href="program.html">add program</a>
-        <a href="coach.html">choose coach</a>
-    </nav>
+    <main>
+        <img src="image/paralympic-athlete-taking-part-of-a-competition.jpg" alt="" class="main-image">
 
-    <div class="main">
-        <div class="ad"> </div>
+        <div class="mailing-block">
 
-        <div class="mailing">
-            <h1>Mailing</h1>
+            <p class="title">mailing</p>
 
             <form action="">
-                <div class="inputs">
-                    <input type="text" name="" id="" placeholder="Email">
-                    <input type="text" name="" id="" placeholder="Title">
-                    <input type="text" name="" id="" placeholder="Term">
+                <div class="form-blocks">
+
+                    <div class="input-block">
+                        <input type="email" placeholder="email">
+                        <input type="text" placeholder="title">
+                        <input type="text" placeholder="tern">
+                        <input type="button" value="sing">
+                    </div>
+
+                    <div class="image-block">
+                        <i class="fa-solid fa-caret-left"></i>
+                        <img src="image/a-gym-with-a-barbell-on-the-floor-and-a-sign-that-says-weight.jpg" alt="">
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+
                 </div>
 
-                <img src=" image/photo2.jpg" alt="">
             </form>
 
-            <div class="sign">
-                sign
-            </div>
+        </div>
 
-        </div>
-        <div class="mapblock">
+        <div class="map-block">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38214.63778196247!2d50.1907456!3d53.2283392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661ecbccfe98fd%3A0x6b0b81a19bbe64e!2z0JPQvtGB0YLQuNC90LjRhtCwINCc0LXQu9GM0L3QuNGG0LA!5e0!3m2!1sru!2sru!4v1698324322666!5m2!1sru!2sru"></iframe>
-            <div class="textblock">
-                <p class="titleP">Own address:</p>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19855.049477648106!2d50.20511102288529!3d53.233531207868296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416619358f6ed059%3A0x7cae18b5ec69228c!2z0J7QsdGJ0LXQttC40YLQuNC1INC60L7Qu9C70LXQtNC20LAg0YHQstGP0LfQuCDQn9CT0KPQotCY!5e0!3m2!1sru!2sru!4v1699786139269!5m2!1sru!2sru"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="info">
+                <div class="title">own address</div>
+                <p>like address</p>
+                <p>like address</p>
                 <p>like address</p>
                 <p>like address</p>
                 <p>like address</p>
             </div>
         </div>
-    </div>
+    </main>
 
     <footer>
-        <div>
-            ©COPYRIGHT
-        </div>
-        <div>number +7 (319) 806-14-88</div>
+        <div class="footer-el">©COPYRIGHT </div>
+        <div class="footer-el">number +7 (319) 806-14-88</div>
     </footer>
-
 </body>
 
 </html>
